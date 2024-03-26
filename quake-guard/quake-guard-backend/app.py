@@ -23,7 +23,7 @@ quake_data = pd.read_csv(quake_data_file)
 quake_model = pickle.load(open('finalized_model.sav', 'rb'))
 print("Created ML Model")
 # TODO: REMEMBER TO ADD KEY HERE & REMEMBER TO ENABLE Geocoding and Distance Matrix APIs
-gmaps = googlemaps.Client(key='AIzaSyC2KHwoCKJqDDMdgOs00giJA-CiT05rbYs')
+gmaps = googlemaps.Client(key='#not enabled')
 
 print("Connect to Google Maps API")
 
